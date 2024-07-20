@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://pyscript.netlatest/pyscript.css"/>
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <style>
+      label{
+        display:block;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="operandOne">x: </label><input name="operandOne" id="operandOne" value="10">
+
+      <label for "total>Resylr:</label><div name="total" id="total></div>
+    </form>
+    <py-script>
+    input_box = Element("operandOne")
+    operandOne = float(input_box.value)
+    result = element("total")
+    result.write("Hello!   The input says:" + str(operndOne))
+
+    </py-script>
+  </body>
+</html>
+
+ 
